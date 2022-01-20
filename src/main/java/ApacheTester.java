@@ -17,8 +17,8 @@ public class ApacheTester {
             System.out.printf("\"%s\" is a number.\n", userAns);
         }
 //        Flips the case of the string
-        System.out.printf("Flipped case: %s\n", StringUtils.swapCase(userAns));
+        System.out.printf("Flipped case: \"%s\"\n", StringUtils.swapCase(userAns));
 //        Reverses the string
-        System.out.printf("Reversed: %s", StringUtils.reverse(userAns));
+        System.out.printf("Reversed: \"%s\"", StringUtils.reverse(userAns));
     }
 }
